@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li><a class="navbar-brand text-light" href="./index.html">Balatro</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown">Cards</a>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item text-light" href="./jokers.html">Jokers</a></li>
+                  <li><a class="dropdown-item text-light" href="./hands.html">Hands</a></li>
+                  <li><a class="dropdown-item text-light" href="./modifiers.html">Modifiers</a></li>
+                  <li><a class="dropdown-item text-light" href="./consumables.html">Consumables</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown">Mechanics</a>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item text-light" href="./decksandstakes.html">Decks/Stakes</a></li>
+                  <li><a class="dropdown-item text-light" href="./shop.html">Shop</a><li>
+                  <li><a class="dropdown-item text-light" href="./blinds.html">Blinds</a></li>
+                  <li><a class="dropdown-item text-light" href="./tags.html">Tags</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="https://store.steampowered.com/app/2379780/Balatro/">Steam</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="https://twitter.com/BalatroGame">Twitter</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container my-1 text-light">
+        <div class="row">
+          <div class="col">
+            <header>
+              <h1>Jokers/Žolíky</h1>
+            </header>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <article>
+              <p>Jednou z hlavních mechanik jsou žolíky, které mají různý efekt na hru a to od ohromného násobení skóre až po měnění samotných karet. Hráč může většinou držet maximálně 5 žolíků, které se ukládají do samostatné oblasti, ale počet žolíků různými způsoby lze změnit.</p>
+              <p>Hra obsahuje 150 žolíků, z toho 45 se odemiká pod různými podmínkamy. Jsou rozděleny na 4 různé kategorie: Common, Uncommon, Rare, Legendary, kde čím vzácnější karta je tím je většinou silnější.</p>
+            </article>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <div class="card" style="width:200px">
+              <img class="card-img-top" src="./images/Joker.webp" alt="Joker žolík">
+              <div class="card-body">
+                <p class="card-text">Joker - +4 Mult</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="card" style="width:200px">
+              <img class="card-img-top" src="./images/Fibonacci.webp" alt="Fibonacci žolík">
+              <div class="card-body">
+                <p class="card-text">Fibonacci - +8 Mult za eso, 2, 3, 5, 8</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="card" style="width:200px">
+              <img class="card-img-top" src="./images/Hologram.webp" alt="Hologram žolík">
+              <div class="card-body">
+                <p class="card-text">Hologram - 0.25x Mult za každou novou kartu</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="card" style="width:200px">
+              <img class="card-img-top" src="./images/Brainstorm.webp" alt="Brainstorm žolík">
+              <div class="card-body">
+                <p class="card-text">Brainstorm - Stejný jako žolík na nejvíce levo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>Více informací <a href="https://balatrogame.fandom.com/wiki/Jokers">zde</a>.</p>
+          </div>
+        </div>
+      </div>
+      <!--basic info-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
